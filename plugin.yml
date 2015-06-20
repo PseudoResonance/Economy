@@ -1,0 +1,27 @@
+name: Economy
+author: WolfLeader116
+main: io.github.wolfleader116.economy.EconomyPlugin
+version: 1.0
+description: Economy plugin.
+depend: [Vault]
+commands:
+  economy:
+    description: Economy plugin command.
+  econ:
+    description: Player economy command.
+permissions:
+  economy.*:
+    description: Gives the player access to all economy features.
+    children:
+      economy.set: true
+      economy.add: true
+      economy.remove: true
+      economy.balance.other: true
+  economy.set:
+    description: Allows the player to set balances.
+  economy.add:
+    description: Allows the player to add to balances.
+  economy.remove:
+    description: Allows the player to remove from balances.
+  economy.balance.other:
+    description: Allows the player to check another player's balance.
