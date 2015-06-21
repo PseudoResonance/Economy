@@ -1,7 +1,7 @@
 name: Economy
 author: WolfLeader116
 main: io.github.wolfleader116.economy.EconomyPlugin
-version: 1.0
+version: 1.0.1
 description: Economy plugin.
 depend: [Vault]
 commands:
